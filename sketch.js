@@ -34,8 +34,8 @@ const sketch = () => {
       const y = lerp(margin, height - margin, v);
 
       context.beginPath();
-      context.arc(x, y, 10, 0, Math.PI * 2, false);
-      context.lineWidth = '10';
+      context.arc(x, y, 200, 0, Math.PI * 8, true);
+      context.lineWidth = '5';
       context.strokeStyle = 'black';
       context.stroke();
     });
